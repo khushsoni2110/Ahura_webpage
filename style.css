@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Chakra Petch', sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header {
+    background: black;
+}
+nav {
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+}
+
+nav li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.banner{
+	background-image: url(images/banner.gif);
+    width: 100%;
+    display: flex;
+    background-size: contain;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+}
+h1{
+    color: #fff;
+    text-align: center;
+}
+.section2{
+    background-color: black;
+}
+h2{
+    text-align: center;
+    color: white;
+   font-family: 'Chakra Petch', sans-serif;
+}
+h3{
+    font-size: 50px;
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 0 0 0px;
+    text-align: left;
+}
+.row1{
+    margin-bottom: 50px;
+    display: flex;
+}
+.col{
+    margin-bottom:30px;
+}
+.col1{
+    width: 50%;
+    text-align: right;
+}
+.row2{
+    width: 83.333;
+    display: flex;
+    padding: 103.675px 0px 0px;
+}
+.col2{
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.image2 img{
+    padding-right: 20px
+}
+p{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 300;
+    font-size: 17px;
+    padding-bottom: 25px;
+}
+.col2 h2{
+    text-align: left;
+    margin: 0 0 8px;
+    font-size: 20px;
+}
+.padding{
+    padding-bottom: 6px;
+}
+.icons{
+    color: rgba(255, 255, 255, 0.5);
+    /*display: flex;*/
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.section3{
+    background-color: black;
+}
+
+h4{
+    color: white;
+    margin-bottom: 12px;
+
+}
+.footer {
+    width: 100%;
+    background: rgb(0, 0, 0);
+    color: #efefef;
+    display: flex;
+}
+.footer div {
+    text-align: center;
+}
+.row4{
+    display: flex;
+    justify-content: space-between;
+}
+.col3 a {
+    display: flex;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+form input {
+    width: 200px;
+    height: 45px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+ 
+form button {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.fa-phone:before {
+    content: "\f095";
+    padding: 14px;
+    margin-bottom: 10px;
+}
+.fa-envelope:before {
+    padding: 14px;
+    content: "\f0e0";
+    margin-bottom: 10px;
+}
+.fa-location-pin:before, .fa-map-marker:before {
+    content: "\f041";
+    padding: 14px;
+}
+.col4 h4{
+    margin: 0 0 12px;
+}
+i{
+    font-weight: 500;
+    font-size: 10px;
+}
+.fa-headset:before {
+    content: "\f590";
+    font-size: 20px;
+}
+
+.fa-globe:before {
+    content: "\f0ac";
+    font-size: 20px;
+}
+.fa-mobile-android:before, .fa-mobile-phone:before, .fa-mobile:before {
+    content: "\f3ce";
+    font-size: 20px;
+}
+.fa-gamepad:before {
+    content: "\f11b";
+    font-size: 20px;
+}
+.fa-fantasy-flight-games:before {
+   content: "\f6dc";
+   font-size: 20px;
+}
+.fa-heart:before {
+    content: "\f004";
+   font-size: 20px;
+}
+img{
+    padding: 15px
+}
+textarea{
+    width: 100%;
+    height: 70px;
+}
+@media (max-width: 1200px) {
+    form input{
+        width: 150px;
+        height: 45px;
+        margin-bottom: 27px;
+    }
+    .image2 img{
+        width: 85%;
+    }
+    p{
+        font-size: 14px;
+    }
+    .col2 h2{
+        font-size: 17px;
+    }
+    
+}
+@media (max-width: 1024px) {
+    .banner{
+        background-repeat: no-repeat;
+        background-color: black;
+    }
+    h3{
+        font-size: 31px;
+        margin-left: 17px;
+    }
+    nav li a{
+        font-size: 12px;
+        padding: 0 22px ;
+    }
+    .button{
+        font-size: 12px;
+        padding: 1px 10px;
+    }
+    form input{
+        width: 90%;
+    }
+    .image img{
+        padding: 14px 30px 0px 1px;
+        margin: 0px 0px 0px -33px;
+        
+    }
+    .col2{
+        width: 100%;
+    }
+    .row2{
+        display: inline-block;
+        padding: 0 0 0 0;
+    }
+    .row4{
+        display: inline-block;
+    }
+    .col3 a{
+        justify-content: left;
+        padding: 0 0 0 14px;
+    }
+    form button{
+        margin-bottom: 25px;
+    }
+    .image2 img{
+        width: 80%;
+    }
+    .icon img{
+        width: 75px;
+    }
+    .footer div{
+        text-align: left;
+    }
+}
+@media (max-width: 768px) {
+    .banner{
+        background: url(images/mobile-banner.gif);
+        background-repeat: no-repeat;
+        background-color: black;
+        background-size: contain;
+        align-items: center;
+
+    }
+    .icon img{
+        margin-right: 20px;
+    }
+    .footer div{
+        text-align: left;
+        padding-left: 7px;
+    }
+}
+@media (max-width: 500px) {
+    .button{
+        font-size: 9px;
+    }
+    .image img{
+        margin: 0 0 0 -66px;
+        width: 55px;
+    }
+    nav li a{
+        padding: 7px 14px;
+        font-size: 09px;
+
+    }
+    nav{
+        padding: 0 69px;
+    }
+    .image2 img{
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+    }
+    h3{
+        font-size: 18px;
+    }
+    h2{
+        font-size: 13px;    
+    }
+    .icon img{
+        margin: -25px;
+        margin-right: 10px;
+    }
+    .banner{
+        width: 100%;
+        vertical-align: middle;
+        height: 400px;
+        
+    }
+}
+
